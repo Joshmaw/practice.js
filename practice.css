@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(153, 255, 0);
+}
+div{
+    background-color: blueviolet;
+    color:white;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 200px;
+}
+button{
+    color:rgb(11, 11, 1);
+    background-color: aqua;
+    margin-left: 10px;
+}
+label,input {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+button:hover{
+    color:red;
+}

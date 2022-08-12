@@ -1,6 +1,6 @@
 //We would like to know if what you need in on the menu
 
-const food = "Pie"
+const food = "Bread"
 
 switch (food) {
     case "Bean":
@@ -8,6 +8,9 @@ switch (food) {
         break;
     case "Egg":
         console.log('Still not on the menu');
+        break;
+    case "Bread":
+        console.log("On the menu");
         break;
     case "Pie":
         console.log('Now we can dine');
