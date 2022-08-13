@@ -4,18 +4,18 @@ const food = "Bread"
 
 switch (food) {
     case "Bean":
-        console.log('Not on the menu');
+        console.log('On the menu');
         break;
     case "Egg":
-        console.log('Still not on the menu');
+        console.log('On the menu');
         break;
     case "Bread":
         console.log("On the menu");
         break;
     case "Pie":
-        console.log('Now we can dine');
+        console.log('On the menu');
         break;
     default:
-        console.log('Input a food type')
+        console.log('Not on the menu or Input a food type')
         break;
 }
